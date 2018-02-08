@@ -1,0 +1,66 @@
+/*.toolbar{
+  height: 60px !important;
+}*/
+
+.nolateral{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pocomargen{
+  margin: 3px;
+}
+
+.contenido{
+  padding: 10px;
+}
+
+.parrafo{
+  text-align: justify;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.textocard{
+  color: #6d6d72;
+  text-decoration: none;
+}
+
+.cardtitle{
+  font-weight: bold;
+}
+
+body{
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+
+.letraazul{
+  color:rgb(10,30,86) !important;
+}
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.botonmenu{
+  margin-top: -6.5px;
+}
+
+.fondoblanco{
+  background-color: white !important;
+}
+
+.fondogris{
+  background-color: rgb(224, 224, 209) !important;
+}
+
+.fondoazul{
+  background-color:rgb(10,30,86) !important;
+  color: white;
+}
+
+.imageWrapper{
+  width:100%;
+  height:auto;
+}

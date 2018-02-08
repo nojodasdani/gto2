@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src * gap: ws: https://ssl.gstatic.com;style-src * 'unsafe-inline' 'self' data: blob:;script-src * 'unsafe-inline' 'unsafe-eval' data: blob:;img-src * data: 'unsafe-inline' 'self' content:;fmedia-src mediastream;">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>MarcaGTO</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+    <link href="lib/framework7/css/framework7-icons.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="lib/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <!--<div class="panel panel-left panel-reveal">
+        <div class="content-block">
+            <p>MarcaGto</p>
+        </div>
+    </div>-->
+
+    <div class="views">
+        <div class="view view-main">
+            <div class="navbar fondoazul">
+                <div class="navbar-inner">
+                    <!--<div class="left">
+                      <img src="img/logo.png" width=60>
+                    </div>-->
+                    <div class="center sliding">
+                        <i class="icon f7-icons">search</i>&nbsp;&nbsp;
+                        <input type="text" class="form-control" placeholder="Buscar en MarcaGto">
+                    </div>
+                    <div class="right">
+                      <a href="#" class="external link" target="_blank">
+                        <img src="img/barras/car.png" width="35">
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pages navbar-through toolbar-through">
+                <!-- Page, "data-page" contains page name -->
+                <div data-page="index" class="page">
+                    <!-- Scrollable page content -->
+                    <div class="page-content fondogris">
+                          <div class="content-block nolateral">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img class="d-block w-100" src="img/index/carrusel1/1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/index/carrusel1/2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/index/carrusel1/3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="img/index/carrusel1/4.jpg" alt="Fourth slide">
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="content-block" id="secciones">
+                            <div class="row no-gutter">
+                              <div class="col-33"><a href="artesania.html"><img src="img/index/artesania.jpg" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="industria.html"><img src="img/index/industria.jpg" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="textil.html"><img src="img/index/textil.jpg" class="imageWrapper"></a></div>
+                            </div>
+                            <div class="row no-gutter botonmenu">
+                              <div class="col-33"><a href="cuero.html"><img src="img/index/cuero.jpg" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="marcas.html" class="link"><img src="img/index/marcas.jpg" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="diseno.html"><img src="img/index/diseno.jpg" class="imageWrapper"></a></div>
+                            </div>
+                            <div class="row no-gutter botonmenu">
+                              <div class="col-33"><a href="empren.html"><img src="img/index/empren.jpg" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="agro.html"><img src="img/index/agro.jpg" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="puntosventa.html"><img src="img/index/puntosventa.png" class="imageWrapper"></a></div>
+                            </div>
+                            <div class="row no-gutter botonmenu">
+                              <div class="col-33"><a href="premios.html" class="link"><img src="img/index/suscripcion.png" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="recomiendo.html"><img src="img/index/recomiendo.png" class="imageWrapper"></a></div>
+                              <div class="col-33"><a href="contacto.html" class="link"><img src="img/index/buzon.png" class="imageWrapper"></a></div>
+                            </div>
+                          </div>
+                          <div class="content-block" style="padding: 0px">
+                            <div class="card" style="margin: 0px">
+                              <!--<div class="card-header">Card header</div>-->
+                              <div class="card-content">
+                                <div class="card-content-inner" style="padding: 20px">
+                                  <div class="row">
+                                    <div class="col-40">
+                                      <div id="carousel2" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/index/carrusel2/1.jpg" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/index/carrusel2/1.jpg" alt="Second slide">
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-60">
+                                      <h3>¡Conoce MarcaGTO!</h3>
+                                      <p style="text-align: justify">En Guanajuato tenemos historia, atractivos turísticos, sabores, olores, texturas y colores que nos distinguen en el mundo. </p>
+                                      <p style="text-align: justify">Por está razón, quien compra lo hecho en Guanajuato, ademas de consumir productos y servicios de calidad, impulsa el fortalecimiento de la economía, así com la generación de empleos para los Guanajuatenses.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--<div class="card-footer">Card Footer</div>-->
+                            </div>
+                              </div>
+                          <div class="content-block">
+                            <img class="imageWrapper" src="img/index/parte.png">
+                          </div>
+                </div>
+            </div>
+          </div>
+            <!-- Bottom Toolbar-->
+            <div class="toolbar fondoazul">
+              <div class="toolbar-inner">
+                <a href="#" class="link" target="_blank">
+                    <img src="img/barras/search.png" width="25">
+                </a>
+                <a href="#" class="link" target="_blank">
+                    <img src="img/barras/heart.png" width="25">
+                </a>
+                <a href="#" class="link" target="_blank">
+                    <img src="img/barras/tag.png" width="25">
+                </a>
+                <a href="#" class="link" target="_blank">
+                    <img src="img/barras/notification.png" width="25">
+                </a>
+                <a href="#" class="link" target="_blank">
+                  <img src="img/barras/user.png" width="25">
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="lib/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>
