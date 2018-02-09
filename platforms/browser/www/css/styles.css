@@ -2,9 +2,19 @@
   height: 60px !important;
 }*/
 
+a:hover {
+    color: #6d6d72 !important;
+    text-decoration: none !important;
+}
+
 .nolateral{
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.nomarginpadding{
+  padding: 0px;
+  margin: 0px;
 }
 
 .pocomargen{
@@ -16,7 +26,7 @@
 }
 
 .parrafo{
-  text-align: justify;
+  text-align: left;
   margin-bottom: 0px;
   margin-top: 0px;
 }
