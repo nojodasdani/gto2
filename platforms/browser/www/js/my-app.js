@@ -14,6 +14,12 @@ $$(document).on('deviceready', function() {
     checkBluetooth();
 });
 
+myApp.onPageInit('puntosventa', function (page) {
+  $('.carousel').carousel({
+    interval: 2000
+  });
+});
+
 myApp.onPageInit('premios', function (page) {
   var fecha = ['1990-01-02'];
   var calendarDateFormat = myApp.calendar({

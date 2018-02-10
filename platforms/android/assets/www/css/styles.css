@@ -2,6 +2,10 @@
   height: 60px !important;
 }*/
 
+.subtitle{
+  border-bottom: 1px solid #f14227;
+}
+
 a:hover {
     color: #6d6d72 !important;
     text-decoration: none !important;
