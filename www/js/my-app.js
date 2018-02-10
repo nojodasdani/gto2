@@ -165,10 +165,10 @@ function checkBluetooth(){
     "padding-left": "25px",
     "padding-right": "25px"
   });
-  /*myApp.addNotification({
+  myApp.addNotification({
     title: 'MarcaGTO',
     message: 'Enciende tu Bluetooth para una mejor experiencia'
-  });*/
+  });
 }
 
 /*function checkBluetooth(){
